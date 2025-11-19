@@ -18,16 +18,19 @@ class Exp2aPage extends StatelessWidget {
               color: Colors.blue,
             ),
           ),
+          void main() {
+  print("Experiment 2A running!");
+}
           const SizedBox(height: 20),
           Image.network(
-            "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg",
+            "https://images.pexels.com/photos/1321524/pexels-photo-1321524.jpeg",
             height: 150,
           ),
           const SizedBox(height: 20),
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: Colors.amber[200],
+              color: const Color.fromARGB(255, 161, 122, 4),
               borderRadius: BorderRadius.circular(8),
             ),
             child: const Text("This is inside a Container widget."),

@@ -11,8 +11,8 @@ class Exp2bPage extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: const [
-            Icon(Icons.star, color: Colors.red),
-            Icon(Icons.star, color: Colors.green),
+            Icon(Icons.star, color: Color.fromARGB(255, 25, 1, 63)),
+            Icon(Icons.star, color: Color.fromARGB(255, 91, 82, 218)),
             Icon(Icons.star, color: Colors.blue),
           ],
         ),
@@ -26,7 +26,7 @@ class Exp2bPage extends StatelessWidget {
         Expanded(
           child: Stack(
             children: [
-              Container(color: Colors.yellow),
+              Container(color: const Color.fromARGB(255, 109, 196, 218)),
               Align(
                 alignment: Alignment.center,
                 child: Container(color: Colors.red, width: 100, height: 100),
